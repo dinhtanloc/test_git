@@ -1,0 +1,18 @@
+[project]
+name = "huong-kltn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "hf-xet>=1.1.10",
+    "ipywidgets>=8.1.7",
+    "matplotlib>=3.10.6",
+    "nltk>=3.9.1",
+    "pandas>=2.3.2",
+    "pip>=25.2",
+    "textblob>=0.19.0",
+    "torch>=2.8.0",
+    "transformers>=4.56.2",
+    "vadersentiment>=3.3.2",
+]
