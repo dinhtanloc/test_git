@@ -1,0 +1,43 @@
+Column,Type,Count,Missing,Mean,Std,Min,Max,Skewness,Unique_Values,Correlation_Target,P_Value,Significance,Most_Frequent,Most_Freq_Count,Entropy
+body_len,Numeric,2029,0,27.9630,21.2302,1.0000,97.0000,1.0718,95,0.2238,0.0000,***,,,
+Length_char,Numeric,2029,0,176.8428,113.6239,51.0000,499.0000,1.0547,406,0.1668,0.0000,***,,,
+Length_word,Numeric,2029,0,27.9630,21.2302,1.0000,97.0000,1.0718,95,0.2238,0.0000,***,,,
+NegWords,Numeric,2029,0,0.9936,1.5367,0.0000,15.0000,2.3122,12,0.1351,0.0000,***,,,
+UpperCaseRatio,Numeric,2029,0,0.0482,0.0748,0.0000,0.8194,5.6558,1026,-0.0871,0.0001,***,,,
+ContainsLink,Numeric,2029,0,0.4303,0.4952,0.0000,1.0000,0.2817,2,-0.1366,0.0000,***,,,
+SentimentScore,Numeric,2029,0,-0.5545,0.7909,-0.9998,0.9998,1.3561,1859,-0.0435,0.0503,,,,
+negScore,Numeric,2029,0,0.0805,0.1073,0.0000,0.5780,1.3411,331,0.0357,0.1082,,,,
+neuScore,Numeric,2029,0,0.7924,0.1535,0.2330,1.0000,-0.4807,474,-0.0795,0.0003,***,,,
+posScore,Numeric,2029,0,0.1270,0.1397,0.0000,0.7670,1.3544,382,0.0599,0.0069,**,,,
+body_length,Numeric,2029,0,176.8428,113.6239,51.0000,499.0000,1.0547,406,0.1668,0.0000,***,,,
+body_word_count,Numeric,2029,0,27.9630,21.2302,1.0000,97.0000,1.0718,95,0.2238,0.0000,***,,,
+body_unique_words,Numeric,2029,0,24.2908,16.7746,1.0000,80.0000,0.9106,76,0.2353,0.0000,***,,,
+body_uppercase_ratio,Numeric,2029,0,0.0482,0.0748,0.0000,0.8194,5.6558,1026,-0.0871,0.0001,***,,,
+body_exclamation_count,Numeric,2029,0,0.2553,0.7653,0.0000,9.0000,4.6289,9,0.0345,0.1201,,,,
+body_question_count,Numeric,2029,0,0.2824,0.6198,0.0000,9.0000,4.0492,8,-0.0162,0.4668,,,,
+body_url_count,Numeric,2029,0,0.7013,1.1074,0.0000,14.0000,3.2913,10,-0.1755,0.0000,***,,,
+positive_example_1_length,Numeric,2029,0,193.5367,125.2446,51.0000,499.0000,0.7835,244,0.0535,0.0160,*,,,
+positive_example_1_word_count,Numeric,2029,0,31.9586,22.9366,3.0000,97.0000,0.8037,87,0.0830,0.0002,***,,,
+positive_example_1_unique_words,Numeric,2029,0,27.4603,17.8599,3.0000,80.0000,0.7046,69,0.0769,0.0005,***,,,
+body,Categorical,2029,0,,,,,,1844,,,,URL free reddit karma with this glitch fast before its patched,24.0,7.4063
+rule,Categorical,2029,0,,,,,,2,,,,No legal advice: Do not offer or request legal advice.,1017.0,0.6931
+subreddit,Categorical,2029,0,,,,,,100,,,,legaladvice,213.0,3.7844
+positive_example_1,Categorical,2029,0,,,,,,458,,,,URL free reddit karma with this glitch fast before its patched,18.0,5.9920
+positive_example_2,Categorical,2029,0,,,,,,461,,,,URL free reddit karma with this glitch fast before its patched,18.0,6.0007
+negative_example_1,Categorical,2029,0,,,,,,473,,,,oh that s interesting you should check out my instagram page dailyetymology for more cool etymology,36.0,5.8639
+negative_example_2,Categorical,2029,0,,,,,,478,,,,oh that s interesting you should check out my instagram page dailyetymology for more cool etymology,26.0,5.9147
+body_original,Categorical,2029,0,,,,,,1869,,,,"www.freekarma.com
+
+Free reddit karma with this GLITCH!
+Fast before its patched!
+",23.0,7.4364
+positive_example_1_original,Categorical,2029,0,,,,,,458,,,,"www.freekarma.com
+
+Free reddit karma with this GLITCH!
+Fast before its patched!
+",18.0,5.9920
+positive_example_2_original,Categorical,2029,0,,,,,,461,,,,"www.freekarma.com
+
+Free reddit karma with this GLITCH!
+Fast before its patched!
+",18.0,6.0007

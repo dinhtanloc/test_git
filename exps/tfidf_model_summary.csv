@@ -1,0 +1,2 @@
+Total_Features,TF_IDF_Features,Numeric_Features,Categorical_Features,Accuracy,ROC_AUC,Text_Columns_Processed
+112,100,10,2,0.6674876847290641,0.7393689320388349,5
